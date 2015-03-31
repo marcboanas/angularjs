@@ -25,10 +25,12 @@ end
 
 group :test, :development do
   gem "rspec-rails", "~> 2.0"
-  gem "factory_girl_rails", "~> 4.0"
   gem "capybara"
   gem "database_cleaner"
   gem "selenium-webdriver"
+  gem 'teaspoon'
+  gem 'phantomjs'
+  gem "factory_girl"
 end
 
 group :doc do
